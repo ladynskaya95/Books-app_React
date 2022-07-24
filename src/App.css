@@ -2,6 +2,8 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Emilys Candy', cursive;
+  letter-spacing: 1px;
 }
 
 .navbar {
@@ -12,6 +14,12 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  font-size: 26px;
+}
+
+.navbar-a a{
+  color: #FE955E !important;
+  text-decoration: none !important;
 }
 
 .footer{
@@ -22,14 +30,118 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 21px;
 }
 
 .bookList{
+text-align: center;
 background-color: #756d9e;
-color: #FE955E;
+color:  #361e8d;
 min-height: 80vh;
 width: 100%;
 display: grid;
 grid-template-columns: repeat(3,1fr);
 justify-items: center;
+}
+
+.favorites-a a{
+  color: #cab3d3 !important;
+  text-decoration: none !important;
+}
+
+.favorites{
+text-align: center;
+background-color: #cab3d3cc;
+color:  #756d9e;
+min-height: 80vh;
+width: 100%;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+justify-items: center;
+}
+
+img{
+  width: 300px;
+  height: 420px;
+  transition: all 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+.book_img{
+  background-color: #cab3d3cc;
+  width: 370px;
+  height: 470px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.book{
+    margin: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.book h4{
+  margin: 10px;
+  font-size: 22px;
+}
+.add{
+  padding:12px;
+  width: 270px;
+  color:   #cab3d3;
+  background-color: #C87257;
+  border: 1px solid #452e9ba4 ;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.add:hover{
+  color:#d4562c;
+  background-color: #793892;
+  border: 1px solid #fd7d38;
+  
+}
+.remove{
+  padding:12px;
+  width: 270px;
+  color: #d4562c;
+  background-color: #793892;
+  border: 1px solid #fd7d38;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.remove:hover{
+  color: #cab3d3;
+  background-color: #C87257;
+  border: 1px solid #452e9ba4 ;
+  
+}
+
+.bookInfo {
+  min-height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+  background-color: #cab3d3cc;
+  color:  #756d9e;
+}
+
+.book-image {
+  margin: 0 20px;
+}
+
+.book-description {
+  margin: 0x 10px;
 }

@@ -6,17 +6,20 @@ import Favorites from "./components/Favorites";
 import Footer from './components/Footer';
 import NavBar from "./components/NavBar";
 
+
 function App() {
   return (
-    <div className="App">
-      <NavBar/>
-      <Routes>
-        <Route path="/" element={<BookList />} />
-        <Route path="/book/:id" element={<BookInfo />} />
-        <Route path="/favorites" element={<Favorites />} />
-      </Routes>
-      <Footer/>
-    </div>
+   
+      <div className="App">
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<BookList />} />
+          <Route path="/books/:id" element={<BookInfo />} />
+          <Route path="/favorites" element={<Favorites />} />
+        </Routes>
+        <Footer />
+      </div>
+    
   );
 }
 

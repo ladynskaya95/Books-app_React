@@ -34,6 +34,7 @@
 }
 
 .bookList{
+ padding: 30px;
 text-align: center;
 background-color: #756d9e;
 color:  #361e8d;
@@ -144,4 +145,23 @@ img:hover {
 
 .book-description {
   margin: 0x 10px;
+}
+
+.search{
+  background-image: url(./img/main.jpg);
+  background-repeat: no-repeat;
+   background-size: cover;
+  height: 450px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.search h2{
+  color: #B9A5C9;
+  font-size: 40px;
+  text-align: center;
+  align-items: center;
+  background-color: rgba(78, 77, 77, 0.671);
 }

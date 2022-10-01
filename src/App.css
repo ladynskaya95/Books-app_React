@@ -159,15 +159,18 @@ img:hover {
 }
 
 .search h2{
+  padding: 20px 0;
   color: #B9A5C9;
   font-size: 40px;
   text-align: center;
   align-items: center;
   background-color: rgba(78, 77, 77, 0.671);
+  margin: 0;
 }
 
 .search-form{
     width: 100%;
+    margin: 0;
 }
 .search-form-elem{
     padding: 1.4rem 2.8rem;
